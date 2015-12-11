@@ -4,7 +4,7 @@
 - `AlwaysRequireRequestParamWithAValueCheck` : this enforces when you define a `@RequestParam` annotation on a controller method you MUST provide a non-blank value/name 
 - `AlwaysRequirePathVariablesWithAValueCheck` : this enforces when you define a `@PathVariable` annotation on a controller method you MUST provide a non-blank value
 
-#### Note: all the above rules provide a property `additionalMessageOnViolation` that will allow you to provide a message that gives a better reason of why YOU require this rule and the said message will displayed when the rule fails.
+**Note: all the above rules provide a property `additionalMessageOnViolation` that will allow you to provide a message that gives a better reason of why YOU require this rule and the said message will displayed when the rule fails.**
 
 ## FAQ
 - **How do I use these custom rules in my checkstyle configuration file?**
@@ -13,7 +13,8 @@
 
 - **How do I integrate these custom rules into maven?**
 
- <project>
+```
+<project>
    <build>
      <plugins>
        <plugin>
@@ -31,6 +32,6 @@
      </plugins>
    </build>
  </project>
-
+```
 
 [1]: https://github.com/born2snipe/spring-mvc-checkstyle-rules/blob/master/src/test/resources/config/spring/mvc
