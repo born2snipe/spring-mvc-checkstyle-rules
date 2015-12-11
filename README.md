@@ -7,11 +7,11 @@
 #### Note: all the above rules provide a property `additionalMessageOnViolation` that will allow you to provide a message that gives a better reason of why YOU require this rule and the said message will displayed when the rule fails.
 
 ## FAQ
-- ** How do I use these custom rules in my checkstyle configuration file?  **
+- **How do I use these custom rules in my checkstyle configuration file?**
     - See one of the configuration files [here][1]
 
 
-- ** How do I integrate these custom rules into maven? **
+- **How do I integrate these custom rules into maven?**
 
  <project>
    <build>
