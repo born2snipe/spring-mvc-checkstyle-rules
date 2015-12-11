@@ -127,4 +127,10 @@
         </developer>
     </developers>
 
+    <scm>
+        <connection>scm:git:git@github.com:born2snipe/spring-mvc-checkstyle-rules.git</connection>
+        <developerConnection>scm:git:git@github.com:born2snipe/spring-mvc-checkstyle-rules.git</developerConnection>
+        <url>git@github.com:born2snipe/spring-mvc-checkstyle-rules.git</url>
+    </scm>
+
 </project>
